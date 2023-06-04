@@ -1,8 +1,9 @@
 import { Box, Card, CardMedia, Typography } from "@mui/material";
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
-
+//geeting image index to show details
 const BannerData = ({ index }) => {
+  //To dispatch action to redux
   const dispatch = useDispatch();
   const { imageData, isStop } = useSelector((store) => store);
 
