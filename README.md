@@ -21,9 +21,13 @@ then
 
 On Big Screen UI 
 
-![App Screenshot](https://ibb.co/pbMxwKv)
+![App Screenshot](https://i.ibb.co/XjKbL5Z/Screenshot-2023-06-04-224955.png)
 
-On Midium Screen UI  n
+On Midium Screen UI  
 
-![App Screenshot](https://ibb.co/B4X450R)
+![App Screenshot](https://i.ibb.co/ZHnHpqC/Screenshot-2023-06-04-224307.png)
+
+On Small Screen UI  
+
+![App Screenshot](https://i.ibb.co/ZHnHpqC/Screenshot-2023-06-04-224307.png)
 
