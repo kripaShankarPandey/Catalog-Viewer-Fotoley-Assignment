@@ -1,16 +1,16 @@
 
-# Typeing Master Assignment
+# Catalog viewer Assignment
 
-A  web application for prectice touch typing.
+A  web application to show images catalog.
 
-## Deployed Link https://typemaster-blue.vercel.app
+## Deployed Link https://catalog-viewer-tan.vercel.app
 
 ## To run locally in your system
 
 Clone this project locallly
 
 ```bash
-  git clone https://github.com/kripaShankarPandey/chabbi-assignment.git
+  git clone https://github.com/kripaShankarPandey/Catalog-Viewer-Fotoley-Assignment.git
 ```
 then 
 ```bash
@@ -19,11 +19,11 @@ then
 ```
 ## Screenshots
 
-Initally UI 
+On Big Screen UI 
 
-![App Screenshot](https://i.ibb.co/1L8TCgF/Screenshot-2023-05-27-121149.png)
+![App Screenshot](https://ibb.co/pbMxwKv)
 
-After typing 5 min UI 
+On Midium Screen UI  n
 
-![App Screenshot](https://i.ibb.co/hmq74d0/Screenshot-2023-05-27-123601.png)
+![App Screenshot](https://ibb.co/B4X450R)
 
