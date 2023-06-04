@@ -9,11 +9,12 @@ import { startButtonAction, stopButtonAction } from "../redux/action";
 import BannerData from "../components/BannerData";
 const Home = () => {
   const dispatch = useDispatch();
+  //getting data from redux store
   const { imageData, isStop } = useSelector((store) => store);
-  console.log(isStop, "ss");
+
   const [index, setIndex] = useState(0);
   const [grayScale, setGrayScale] = useState(1);
-
+  //applying time delay of 3 second
   useEffect(() => {
     let id;
     if (isStop) {
@@ -35,6 +36,7 @@ const Home = () => {
       prevIndex === imageData.length - 1 ? 0 : prevIndex + 1
     );
   };
+  //showing catalog details on clicking image and changing grayscale filter
   const handleImageClick = (e) => {
     setIndex(e.id - 1);
     setGrayScale(e.id);
