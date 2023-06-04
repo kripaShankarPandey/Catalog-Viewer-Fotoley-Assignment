@@ -1,2 +1,3 @@
-export const STOP="STOP";
-export const START="START";
+// all actions
+export const STOP = "STOP";
+export const START = "START";
