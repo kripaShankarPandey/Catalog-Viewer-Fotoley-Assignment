@@ -38,15 +38,15 @@ const [index,setIndex]=useState(0);
   return (
     <>
     <Caurasal index={index} />
-    <Box display={"flex"} marginTop={2} alignItems={"center"}>
-    <Box display={"flex"} border={"2px solid red"} width={"60%"} alignItems={"center"} gap={"10px"}>
+    <Box display={"flex"}  alignItems={"center"} flexDirection={["column","row"]}>
+    <Box display={"flex"}  width={["100%","60%"]} alignItems={"center"} gap={"10px"}>
       <ArrowLeftIcon fontSize='large' onClick={handleLeftButtonCLick}/>
       {imageData.length>0 && imageData.map((e)=><img width={"20%"} key={e.id} src={e.link} alt="banner" onClick={()=>handleImageClick(e)} style={{borderRadius:"10px"}}/>)}
       <ArrowRightIcon fontSize='large' onClick={handleRightButtonCLick}/>
     </Box>
     {/* play push button */}
     <Box
-      bgcolor="teal"
+      bgcolor="#25beda"
       color="white"
       borderRadius="50%"
       display="flex"
@@ -56,6 +56,7 @@ const [index,setIndex]=useState(0);
       height={60}
       boxShadow={3}
       cursor="pointer"
+      ml="40px"
     >
       {isStop ? (
         <PauseIcon

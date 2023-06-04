@@ -10,12 +10,13 @@ const Caurasal = ({index}) => {
 
   return (
     <>
-    <Box  display={"flex"} gap={"3%"} padding={"30px"}>
-        <Box width="55%">
+    <Box  display={"flex"} flexDirection={["column","column","row"]} gap={"3%"} padding={"30px"}>
+        <Box width={["100%","100%","55%"]}>
             <img src={imageData[index].link} alt="banner" width={"100%"} style={{borderRadius:"20px"}} />
         </Box>
-        <Box width="42%">
-            <Typography>{imageData[index].description}</Typography> 
+        <Box width={["100%","100%","42%"]} color={"#2C3E50"}>
+            <Typography variant="h2">{imageData[index].heading}</Typography> 
+            <Typography mt="40px" fontSize={"20px"}>{imageData[index].description}</Typography> 
         </Box>
     </Box>
     </>
